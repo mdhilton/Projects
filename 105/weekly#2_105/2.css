@@ -1,0 +1,17 @@
+/*
+ * Mark Hilton
+ * Week 2 Assignment 2
+ */
+
+body{
+	display: flex;
+}
+
+div{
+	width: 50%;
+}
+button{
+	width: 30%;
+	margin-top:1em;
+}
+

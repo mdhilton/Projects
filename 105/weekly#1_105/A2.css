@@ -1,0 +1,27 @@
+/*
+ * Mark Hilton
+ * Weekly Assignment 2
+ */
+
+.content h1{
+	background-color: black;
+	color: white;
+}
+
+.content{
+	width: 80%;
+	margin-left: 21em;
+}
+
+.code{
+	background-color: #fff2f4;
+	color: #ff2d94;
+	font-family:monospace;
+}
+
+.index{
+	width: auto;
+	max-width: 20em;
+	position: fixed;
+}
+

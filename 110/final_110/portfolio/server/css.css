@@ -1,0 +1,25 @@
+@import url("../extras/head.css");
+
+:root{
+    --accent:#458161;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+}
+
+section div{
+    text-align: center;
+    height: 95%;
+    width:45%;
+    margin: auto;
+    margin-top:0px;
+    overflow-y: hidden;;
+}
+
+iframe{
+    width: 100%;
+    height: inherit;
+    border: none;
+}

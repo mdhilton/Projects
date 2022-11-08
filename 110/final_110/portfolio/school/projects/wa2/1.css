@@ -1,0 +1,60 @@
+body,html{
+	margin: 0px;
+	height: 100%;
+	color: white;
+}
+.header{
+	height: 50px;
+	background-color: blue;
+}
+
+.header *,.footer *{
+	margin-top: 0px;
+}
+
+.footer{
+	height: 50px;
+	background-color: grey;
+}
+
+.grid{
+	--space:.5em;
+	width: min(90em,100%);
+	height: calc(100% - 100px - 1em);
+	margin: auto;
+	display: grid;
+	grid-gap: var(--space);
+	padding-top: var(--space);
+	padding-bottom: var(--space);
+	grid-template: 
+	"hero hero hero"
+	"cont cont side"
+	"cont cont side"
+	"cont cont side";
+}
+
+@media (max-width:800px){
+	.grid{
+		width: 100%;
+		grid-template:
+		"hero"
+		"cont"
+		"side";
+	}
+}
+
+
+.hero{
+	grid-area: hero;
+	background-color: red;
+}
+
+.content{
+	grid-area: cont;
+	background-color: green;
+}
+
+.sidebar{
+	grid-area: side;
+	background-color: purple;
+}

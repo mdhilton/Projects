@@ -1,0 +1,94 @@
+body{
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+header,footer{
+	background-color: #293f50;
+	color: white;
+
+}
+footer{
+	display: flex;
+	padding: 3em;
+}
+footer *{
+	margin: auto;
+}
+footer p{
+	color: mediumspringgreen;
+}
+
+.flex{
+	display: flex;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 3em;
+}
+
+.name{
+	border-top: solid;
+	border-color: #648880;
+	width: 30%;
+	color: #919ca5;
+	padding-top: 2em;
+}
+.name h1{
+	margin: 0px;
+}
+
+
+.links{
+	width: 70%;
+	text-align: right;
+	padding-top: 2em;
+}
+
+.links p {
+	width: 100%;
+	color: #527271;
+}
+
+.about{
+	margin: auto;
+	width: 40%;
+	text-align: center;
+	height: 15em;
+}
+.about h2{
+	color: #527271;
+}
+.about p{
+	padding-bottom: 2em;
+	color: #919ca5
+}
+
+.button{
+	padding:2em;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+	border: solid 1px;
+	border-radius: .3em;
+	margin: 3em;
+}
+
+.quickpoints{
+	padding: 5em;
+	width: min(960px,100%);
+	margin: auto;
+	display: flex;
+	color: #b1b9c0;
+}
+
+.quickpoints div{
+	width: 25%;
+	margin: auto;
+}
+
+img{
+	width: 100%;
+	border-radius: 0.5em;
+}
+

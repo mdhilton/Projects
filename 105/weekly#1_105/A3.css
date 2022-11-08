@@ -1,0 +1,38 @@
+/*
+ * Mark Hilton
+ * Weekly Assignments 3
+ *
+ */
+html{
+	padding: .5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: white;
+}
+
+body{
+	background-color: #eee;
+	margin:auto;
+	text-align: center;
+	padding: 1%;
+	border-radius: .3%;
+}
+
+.text{
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+	padding-top: 0em;
+}
+
+.imgw{
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	padding: 3em;
+	padding-bottom: 1em;
+}
+li{
+	padding: 1em;
+}

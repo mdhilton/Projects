@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--Mark Hilton-->
+<!--Project 1-->
+<html>
+	<head>
+		<link rel="stylesheet" href="p1.css">
+		<title>List</title>
+	</head>
+	<body>
+		<div class="control">
+			<div class=add>
+				<input id="input" type="text">
+				<button onclick="add();">Add item</button>
+			</div>
+			<div class="filter">
+				<label for"all">Show All</label>
+				<input type="radio" name="a" id="all" onchange="showall()" checked>
+				<br>
+				<label for="onlyChecked">Only Checked</label>
+				<input type="radio" name="a" id="onlyChecked" onchange="hideunchecked()" >
+				<br>
+				<label for"onlyUnchecked">Only Unchecked</label>
+				<input type="radio" name="a" id="onlyUnchecked" onchange="hidechecked()">
+
+			</div>
+		</div>
+		<br>
+		<div id="listhold"></div>
+		<script src="p1.js"></script>
+	</body>
+</html>
+
+	

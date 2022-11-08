@@ -1,0 +1,20 @@
+*{
+    font-family: mono;
+}
+html{
+    background: black;
+    height: 100%;
+}
+body{
+    display:grid;
+    height:95%;
+    overflow: hidden;
+}
+div{
+    height: auto;
+    color:white;
+    background: #1a1a1a;
+    border-radius: 3em;
+    margin: 1em;
+    padding: 1em;
+}

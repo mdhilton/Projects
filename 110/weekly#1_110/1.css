@@ -1,0 +1,20 @@
+
+img{
+	width: 5em;
+	height: 5em;
+	border-radius: 100%;
+	padding: 1em;
+}
+
+div{
+	width: 50%;
+	display: flex;
+	background-color: lightblue;
+	border-radius: 1em;
+}
+
+div div{
+	display: block;
+	width: 100%;
+}
+

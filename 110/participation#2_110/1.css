@@ -1,0 +1,21 @@
+p{
+	padding: 1em;
+	width: 25em;
+}
+.all{
+	border: solid;
+}
+
+.bottom{
+	border-bottom: solid red;
+}
+
+.round{
+	border: solid;
+	border-radius: 1.5em;
+}
+
+.left{
+	border-left: solid blue;
+	background-color: lightblue;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css.css">
+    <title>portfolio</title>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <div>
+	<hr>
+	<hr>
+	<h1>Mark Hilton</h1>
+	<h2>markers711@gmail.com</h2><!--How to get in touch with you/Visible contact information (you can also put your LinkedIn or something). (mandatory)-->
+	<a class="button" href="#grid">▼</a>
+	<hr>
+	<hr>
+      </div>
+    </header>
+    <div id="grid">
+      <section id="photo"><!--A photo. (mandatory)-->
+	<h2>A photo</h2>
+	<img src="extras/me.jpg">
+      </section>
+      <section id="info">
+	<form class="hide">
+	  <input type="radio" name="slide" value="who" checked>
+	  <input type="radio" name="slide" value="skills">
+	  <input type="radio" name="slide" value="past_career">
+	  <input type="radio" name="slide" value="goals">
+	  <input type="radio" name="slide" value="resume">
+	  <div>
+	    <!--Who you are? /Personal branding. (mandatory)-->
+	    <div>
+	      <h2>About me</h2>
+	      <p>Im a student at Thaddeius Stevens College. I program and host servers in my free time.</p>
+	    </div>
+	    
+	    <!--List of areas of expertise/Skills and abilities. (mandatory)-->
+	    <div>
+	      <h2>skills</h2>
+	      <ul>
+		<li>linux/unix administrastion</li>
+		<li>Windows Active Directory</li>
+		<li>Information Technology</li>
+		<li>Web development</li>
+		<li>Networking</li>
+		<li>Programing
+		  <ul>
+		    <li>C</li>
+		    <li>java</li>
+		    <li>python</li>
+		    <li>javascript</li>
+		  </ul>
+		</li>
+	      </ul/>
+	    </div>
+
+	    <!--Career summary or A table of contents. (mandatory)-->
+	    <div>
+	      <h2>Career</h2>
+	      <p>I have previously done unpayed I.T. work for conestoga valley highschool and payed I.T. work for cocalico school district</p>
+	    </div>
+
+	    <!--Career and professional development goals, tailored for each interviewer. (mandatory)-->
+	    <div>
+	      <h2>Goals</h2>
+	      <p>I would love to be able to work on opensourced projects as a job.</p>
+	    </div>
+
+	    <!--Resume or downloadable link for that. (mandatory)-->
+	    <div>
+	      <h2>Resume</h2>
+	      <embed src="./extras/cv.pdf"></embed>
+	    </div>
+	  </div>
+	</form>
+      </section>
+      <section id="projects"><!--Printouts/links to your work i.e., websites, web pages, other projects, or blogs you created. (mandatory)-->
+	<h2>projects</h2>
+	<div class="circle-hub">
+	  <div class="circle"><a href="https://github.com/donut0711"><iframe src="./github/index.html"></iframe></a></div>
+	  <div class="circle"><a href="./school/index.html"><iframe src="./school/index.html"></iframe></a></div>
+	  <div class="circle"><a href="./unix/index.html"><iframe src="./unix/index.html"></iframe></a></div>
+	  <div class="circle"><a href="./server/index.html"><iframe src="./server/index.html"></iframe></a></div>
+	</div>
+      </section>
+    </div>
+  </body>
+</html>

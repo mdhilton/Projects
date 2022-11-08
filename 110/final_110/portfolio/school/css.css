@@ -1,0 +1,37 @@
+@import url("../extras/head.css");
+@import url("../extras/spinn.css");
+:root{
+    --accent:#901d41;
+}
+
+section{
+    height: 100vh;
+    display: grid;
+    grid-template: "a";
+    overflow: hidden;
+}
+section div{
+    margin:2em;
+    background: rgba(255,255,255,0.1);
+    border-radius:3em;
+}
+
+.circle{
+    overflow: hidden;
+}
+.circle a{
+    height: 100%;
+    width:100%;
+    display: block;
+}
+
+iframe{
+    margin: 0;
+    border: none;
+    background: white;
+    height: 200%;
+    width:200%;
+
+    pointer-events:none;
+    transform: scale(.5) translate(-50%,-50%);
+}

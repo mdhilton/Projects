@@ -1,0 +1,56 @@
+/*set the header*/
+body{
+    accent-color:var(--accent);
+    font-family: monospace;
+    margin:0px;
+    background: black;
+    color: white;
+}
+
+header{
+    background: linear-gradient(var(--accent),55%, transparent);
+    display:flex;
+    align-items: center;
+    height:100vh;
+}
+
+header div{
+    width: min(45em,100%);
+    padding:3em;
+    margin:auto;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    border-radius: 3em;
+}
+
+header div a{
+    text-decoration: none;
+    font-size: 200%;
+    color:white;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+header h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header div h2{
+    margin-bottom: 0px;
+    text-transform: lowercase;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.button{
+    background: rgba(100,100,100,0.5);
+    border-radius: 3em;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background: rgba(20,20,20,0.5);
+    color:darkgrey;
+}

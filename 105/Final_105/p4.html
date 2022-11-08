@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--Mark Hilton-->
+<!--Project 4-->
+<html>
+	<head>
+		<title>Password</title>
+	</head>
+	<body>
+		<h1>Password Generator</h1>
+		<p id="Out"></p>
+		<form id=form action="#" >
+			<input id="Len" type="number" value="12">
+			<label>lenght</label>
+			<br>
+			<input id="Up" type="checkbox" name="sel">
+			<label>Upercase</label>
+			<br>
+			<input id=Low type="checkbox" name="sel" checked>
+			<label>Lowercase</label>
+			<br>
+			<input id="Num" type="checkbox" name="sel">
+			<label>Numbers</label>
+			<br>
+			<input id="Sym" type="checkbox" name="sel">
+			<label>Symbols</label>
+			<br>
+			<input type="button" value="generat password" onclick="gen();">
+		</form>
+
+		<script src="p4.js"></script>
+	</body>
+</html>

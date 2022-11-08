@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--Mark Hilton-->
+<!--Project 3-->
+<html>
+	<head>
+		<title>Game show</title>
+	</head>
+	<body>
+		<h2 id="q">na</h2>
+		<form id="quest" action="#"  onsubmit="sub()">
+			<input id="A" name="answer" type="radio" value="0">
+			<label for"A">A</label><br>
+			<input id="B" name="answer" type="radio" value="1">
+			<label for"B">B</label><br>	
+			<input id="C" name="answer" type="radio" value="2">
+			<label for"C">C</label><br>
+			<input id="D" name="answer" type="radio" value="3" required="true">
+			<label for"D">D</label><br>
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="fifty(this)">50/50</button>
+		<button onclick="pers(this,2)">Audiance</button>
+		<button onclick="pers(this,1)">Friend</button>
+		<script src="p3.js"></script>
+	</body>
+</html>

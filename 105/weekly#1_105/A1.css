@@ -1,0 +1,44 @@
+/*
+ * Mark Hilton
+ * Weekly Assignment 1
+ */
+
+html{
+	background-color: darkgray;
+}
+
+body{
+	margin: 2in;
+	padding: 1in;
+	margin-top: .5in;
+	margin-bottom: .5in;
+	background-color: white;
+}
+
+img{
+	border-radius: 20%;
+}
+
+table.edu td,table.edu{
+	border-style: solid;
+	border-collapse: collapse;
+	height: 2em;
+}
+table{
+	table-layout: fixed ;
+	text-align: center;
+	width: 95%;
+	margin: auto;
+}
+
+hr{
+	margin-top: 0px;
+}
+h3{
+	margin-bottom: 0px;
+}
+
+.right{
+	text-align: right;
+}
+

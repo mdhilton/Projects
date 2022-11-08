@@ -1,0 +1,39 @@
+.hide{
+    display:grid;
+    grid-template:"top top top top top";
+    height: 100%;
+    grid-template-rows: 15fr 1fr;
+}
+
+.hide div{
+    grid-area: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.hide div div{
+    width: 100%;
+    height: 100%;
+    grid-area: hi;
+}
+.hide input{
+    margin:auto;
+}
+
+form input:nth-child(1):checked ~ div div:not(:nth-child(1)){
+    display: none;
+}
+form input:nth-child(2):checked ~ div div:not(:nth-child(2)){
+    display: none;
+}
+form input:nth-child(3):checked ~ div div:not(:nth-child(3)){
+    display: none;
+}
+form input:nth-child(4):checked ~ div div:not(:nth-child(4)){
+    display: none;
+}
+form input:nth-child(5):checked ~ div div:not(:nth-child(5)){
+    display: none;
+}

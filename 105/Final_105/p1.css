@@ -1,0 +1,30 @@
+button{
+	text-align: center;
+	width: 100%;
+}
+
+.control{
+	display: flex;
+}
+.filter{
+	text-align: right;
+	width: 12em;
+}
+.add, .add input{
+	width: 100%;
+}
+
+
+#listhold{
+	margin-top: 2em;
+}
+
+#listhold button{
+	margin: .5em;
+	background-color: white;
+	border: none;
+}
+
+.cros{
+	text-decoration: line-through;
+}

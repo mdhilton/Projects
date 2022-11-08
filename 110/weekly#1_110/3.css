@@ -1,0 +1,102 @@
+body{
+	background: linear-gradient(110deg, #f93d66, #6d47d9);
+}
+
+.menu{
+	display: grid;
+	list-style: none;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	padding: 0em;
+}
+
+.menu li{
+	background-color: orange;
+	padding: 1em;
+	margin: 1em;
+	text-align: center;
+}
+
+.top{
+	display: grid;
+	grid-template-areas: 
+	"hero hero a" 
+	"hero hero b";
+}
+
+
+.top div {
+	background-color: orange;
+	margin: 1em;
+}
+
+.top div div :not(.big div):not(.big div *){
+	padding-top: 6%;
+	width: 25%;
+	margin: auto;
+}
+
+@media (max-width: 800px) {
+  .top {
+    grid-template-areas:
+      "hero"
+      "cta1"
+      "cta2"
+  }
+}
+
+.big{
+	min-height: 400px;
+	grid-area:hero;
+	background: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
+	background-size:cover;
+}
+
+.big div{
+	padding: 0px;
+	margin-left: 5em;
+	margin-top: 5em;
+	width: 26%;
+	background: rgba(0,0,0,0);
+}
+
+.big div * {
+	background: orange;
+}
+.big div p{
+	width: 50%;
+}
+.fetured{
+	background: white;
+	margin: 1em;
+	display: flex;
+}
+
+.fetured div{
+	width: 12%;
+}
+
+h2:not(.fetured *){
+	text-align: center;
+	width: 100%;
+	background: linear-gradient(
+	to right,
+	rgba(0,0,0,0), 
+	orange,
+	rgba(0,0,0,0)
+	);
+} 
+
+button{
+	background: orange;
+	border: none;
+	padding: 1em;
+}
+
+.flex{
+	display: flex;
+	text-align: center;
+}
+.flex div{
+	background: white;
+	margin: 1em;
+}
